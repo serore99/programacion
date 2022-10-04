@@ -7,7 +7,7 @@ for (let i = 1; i <= 10; i++) {
     for (let j = 1; j <= 10; j++) {
         console.log(i, "x", j, "=", i * j);
     }
-    readlyneSync.keyInPause("Pulsa una tecla para continuar");
+    readlyneSync.keyInPause();
     console.clear();
 }
 
@@ -15,13 +15,12 @@ for (let i = 1; i <= 10; i++) {
 /* let i = 1;
 while (i <= 10) {
     let j = 1;
-    console.log("Tabla del", i);
+    console.log("\nTabla del", i);
     console.log("--------------------");
     while (j <= 10) {
         console.log(i, "x", j, "=", i * j);
         j++
     }
-    console.log("");
     i++;
 } */
 
@@ -29,12 +28,11 @@ while (i <= 10) {
 /* let i = 1;
 do {
     let j = 1;
-    console.log("Tabla del", i);
+    console.log("\nTabla del", i);
     console.log("--------------------");
     do {
         console.log(i, "x", j, "=", i * j);
         j++;
     } while (j <= 10);
-    console.log("");
     i++;
 } while (i <= 10); */
