@@ -10,6 +10,8 @@ while(i<=50){
     }
     num++;
 } */
+
+//Solucion 2
 let multiplo=3;
 for(let i=1;i<=50;i++){
     console.log(multiplo*i);

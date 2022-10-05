@@ -1,0 +1,1 @@
+//No contemplar el 2 y los siguientes recorrer desde el 2 hasta n/2 +1 comprobando si su division da resto 0, si no salta al siguiente
