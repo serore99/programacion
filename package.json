@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "jsdoc": "^4.0.0"
   }
 }
